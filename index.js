@@ -94,5 +94,4 @@ function goCrazy() {
       yOff = Math.ceil( 7 * Math.random())  * 5 - 10;
     }
     window.moveTo(xPos,yPos);
-		setTimeout('goCrazy();',10);	
 }
