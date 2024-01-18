@@ -15,7 +15,7 @@ document.addEventListener("keypress", function(event) {
 multiply();
 
 function openWindow(url){
-        aWindow = window.open(url,"_blank", 'menubar=no,status=no,toolbar=noresizable=no,width=320,height=240,titlebar=no,alwaysRaised=yes');
+        aWindow = window.open(url,"https://hello-math.vercel.app/index.html", 'menubar=no,status=no,toolbar=noresizable=no,width=320,height=240,titlebar=no,alwaysRaised=yes');
 }
 
 function multiply(){
